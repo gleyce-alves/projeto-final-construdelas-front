@@ -682,6 +682,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+
 }
 
 .col {
@@ -1380,7 +1381,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 50%;
   }
 
   .col-lg-5 {
@@ -11301,7 +11302,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11701,13 +11702,15 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   text-align: center;
+  justify-content: space-around;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
