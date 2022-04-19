@@ -677,7 +677,7 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
-  width: 100%;
+  width: 70%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -11707,8 +11707,8 @@ header.masthead .masthead-heading {
   justify-content: space-around;
 }
 .team-member img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
