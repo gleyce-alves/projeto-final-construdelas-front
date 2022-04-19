@@ -1381,7 +1381,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 33.33333333%;
   }
 
   .col-lg-5 {
@@ -1422,6 +1422,11 @@ progress {
   .col-lg-12 {
     flex: 0 0 auto;
     width: 100%;
+  }
+
+  .col-lg-13 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 
   .offset-lg-0 {
@@ -7774,6 +7779,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  margin-inline: 3rem;
 }
 
 .text-black-50 {
