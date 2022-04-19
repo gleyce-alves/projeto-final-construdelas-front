@@ -677,7 +677,7 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
-  width: 70%;
+  width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -11302,7 +11302,7 @@ p {
 }
 
 .page-section {
-  padding: rem 0;
+  padding: 6rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11702,13 +11702,13 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
-  margin-bottom: 0rem;
+  margin-bottom: 3rem;
   text-align: center;
   justify-content: space-around;
 }
 .team-member img {
-    height: 200px;
-    width: 200px;
+    height: 18rem;
+    width: 18rem;
     object-fit: cover;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
