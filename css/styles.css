@@ -682,6 +682,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+
 }
 
 .col {
@@ -1421,6 +1422,11 @@ progress {
   .col-lg-12 {
     flex: 0 0 auto;
     width: 100%;
+  }
+
+  .col-lg-13 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 
   .offset-lg-0 {
@@ -7773,6 +7779,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  margin-inline: 3rem;
 }
 
 .text-black-50 {
@@ -11703,11 +11710,13 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  justify-content: space-around;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    height: 18rem;
+    width: 18rem;
+    object-fit: cover;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
